@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" width="45" href="/resources/icon.ico" />
+  <meta charset="UTF-8">
+  <title>[Phoenix - Home]</title>
+  <link href="/resources/replit.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="getCurrentDate()">
+  <script type="module">const user = await getUserInfo() </script>
+  <nav class="navbar">
+    <a href="home.html" class="nav-logo"><img class="align-middle" src="/resources/icon.ico" />[Phoenix]</a>
+    <ul class="nav-links">
+      <input type="checkbox" id="checkbox_toggle" />
+      <label for="checkbox_toggle" class="hamburger">☰</label>
+      <div class="menu">
+        <li class="nav-dropdown">
+          <a href="#" class="dropdown-link">Pages</a>
+          <ul class="dropdown">
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+          </ul>
+        </li>
+        <li class="nav-dropdown">
+          <a href="#" class="dropdown-link">Games</a>
+          <ul class="dropdown">
+            <li><a href="games/chrome-dino.html">Chrome Dino</a></li>
+            <li><a href="games/flappy-bird.html">Flappy Bird</a></li>
+            <li><a href="games/eaglercraft.html">Eaglercraft</a></li>
+            <li><a href="#">Item</a></li>
+            <li><a href="#">Item</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Link</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </div>
+    </ul>
+  </nav>
+  <main>
+    <section class="container">
+      <center>
+        <h3>Hello. Welcome to [Phoenix].</h3>
+        <h5>[Phoenix] is a website that is still in development. [Pheonix] is currently at version 0.1.3.</h5></br>
+        <p id="DATE"></p>
+        <img src="/resources/icon.ico" width="157.5"></br>
+        &nbsp;</br>
+        <button type="button" onclick="change()" class="btn btn-primary">No Purpose. :(</button>
+        <p id="change">Times Clicked: 0</p></br>
+      </center>
+    </section>
+  </main>
+  &nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>&nbsp;</br>
+  <div class="footer">© 2023 @Phoenix482</div>
+  <script src="/resources/script.js"></script>
+  <script src="/resources/replit.js"></script>
+  <script src="https://replit.com/public/js/repl-auth-v2.js"></script>
+</body>
+
+</html>
